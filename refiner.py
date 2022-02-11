@@ -9,7 +9,7 @@ import torch
 
 from utils.model_operations import *
 from utils.lightning_wrappers import *
-from models.ifbid import *
+from IFBID.ifbid import *
 
 import argparse
 from math import ceil
