@@ -1,6 +1,10 @@
 # DataDriven-Bias-Detection
 
+This directory implements data driven methods for bias classification. It was generated over the duration of the course _Deep Learning_ at ETH Zürich, which was supervised by Prof. Fernando Perez Cruz. The original goal of the project was to implement and test the IFBID architecture for Bias Classification, as proposed in https://arxiv.org/abs/2109.04374.
+
 # Usage
+
+To use this directory as a standalone, eg. to reproduce MNIST results or our personal findings, 
 
 ## Prerequisites
 __First__, the requirements, which need to be installed / upgraded:
