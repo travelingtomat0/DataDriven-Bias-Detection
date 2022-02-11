@@ -12,7 +12,7 @@ Inputs to the classifier are MNIST digit classifiers which have been trained on 
 # This Directory
 
 In this directory we implement the IFBID architecture with help of the libraries Pytorch and Pytorch-Lightning. Importantly, **as of now we have only implemented the IFBID architecture for the DigitWB** database. Keep in mind that the MNIST classifiers that are input to the IFBID model have the shape depicted below:
-![Required MNIST Classifier Architecture](https://github.com/travelingtomat0/DataDriven-Bias-Detection/edit/main/figs/other_architecture.jpeg)
+![Required MNIST Classifier Architecture](https://github.com/travelingtomat0/DataDriven-Bias-Detection/blob/main/figs/other_architecture.jpeg?raw=true)
 
 # Usage
 
