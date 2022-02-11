@@ -16,4 +16,3 @@ In this directory we implement the IFBID architecture with help of the libraries
 ![Required MNIST Classifier Architecture](https://github.com/travelingtomat0/DataDriven-Bias-Detection/blob/main/figs/other_architecture.jpeg?raw=true)
 
 # Usage
-
