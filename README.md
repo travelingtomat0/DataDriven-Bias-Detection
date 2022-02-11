@@ -2,11 +2,14 @@
 
 # Usage
 
+## Prerequisites
 __First__, the requirements, which need to be installed / upgraded:
 - torch
 - pytorch-lightning
 - sklearn
 - tensorflow
+
+## Bias Classifiers: Training
 
 To obtain the bias-classifiers, it is necessary to reproduce (i.e. train the classifiers). To do this, run:
 ```
@@ -26,6 +29,7 @@ The models will be stored in the directory [path-to-data]/bias_classifiers. An e
 python3 trainer.py --model_number 0 --epochs 1 --stepsize 1 --reshuffle --use_dense ./data/author_dataset
 ```
 
+## Bias Classifiers: Refinement
 For **refinement** of the classifiers in the list above, use:
 ```
 python3 refiner.py --epochs [num-refinement-epochs] --model_number [number] [path-to-original-model_weights] [path-to-generalization_dataset] [path-to-bias_classifiers]
