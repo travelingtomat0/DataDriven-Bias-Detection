@@ -7,6 +7,8 @@ Colaborators:
 - https://github.com/LucaSchweri
 - https://github.com/schererdavid
 
+For detailed information on the paper, see the submission [paper](https://github.com/travelingtomat0/DataDriven-Bias-Detection/blob/main/Deep_Learning_Report.pdf).
+
 # Usage
 
 To use this directory as a standalone, eg. to reproduce MNIST results or our personal findings, 
